@@ -1,24 +1,11 @@
 import Wappsto = require('wappsto-wapp')
 const axios = require('axios');
 
-
 /**
  *  Enable extsync
  *  run `npx wapp configure`
  *  ? Should ExtSync be enabled for your Wapp? Yes
  */
-
-/*
- * Example of Telegram message.
- *
- * {"update_id":219264035,"message":{"message_id":12,"from":{"id":127983167,"is_bot":false,"first_name":"Sigis","username":"sigidagi","language_code":"en"},"chat":{"id":-627583276,"title":"Seluxit Friends","type":"group","all_members_are_administrators":true},"date":1655194913,"text":"du su"}}
- *
- * ---------------------------------------------------------------------------------------------
- *
- * Example of Mattermost message
- * {"token":"5mx4ymmqhbrkmkt9yb3sgju1ah","team_id":"9r8je8u4hpy3ietukdmqy188fh","team_domain":"seluxit","channel_id":"otrp14qq13ry8dsm7jtfk4s1bh","channel_name":"telegram","timestamp":165519071580,"user_id":"u68ce975pb8ofc3dqkmfj9uwec","user_name":"sigis-seluxit.com","post_id":"twh8tcyk4bn6jyfr6np56aiw1a","text":"matter","trigger_word":"","file_ids":""}
- */
-
 
 
 /**
