@@ -1,0 +1,21 @@
+{
+    "name": "TelegramMattermost",
+    "author": "Sigis Dagilis",
+    "version_app": "0.0.1",
+    "title": "",
+    "icon": "04d98c89-f252-4ce8-a4d4-c125efbcba4c",
+    "supported_features": [
+        "foreground",
+        "background"
+    ],
+    "description": {
+        "general": "",
+        "version": "",
+        "foreground": "",
+        "background": "",
+        "widget": ""
+    },
+    "status": "idle",
+    "barebone": "light",
+    "barebone_version": "light"
+}

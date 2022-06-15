@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "wappsto-wapp": "^0.10.0"
+  },
+  "name": "seluxitbot",
+  "version": "0.0.1",
+  "description": "Telegram bot connectivity with Wappsto",
+  "main": "main.js",
+  "author": "Sigis Dagilis",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx tsc --build && vue build ./src/foreground/App.vue && cp package.json ./background",
+    "reinstall": "npx wapp update --reinstall",
+    "start": "npx wapp serve"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3",
+    "wappsto-cli": "^1.5.12"
+  }
+}
